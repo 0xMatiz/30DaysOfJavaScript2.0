@@ -124,6 +124,7 @@ let num = '10';
 let numFloat = parseFloat(num);
 console.log(numFloat); // Now '10' is equal to 10
 
+
 //POINT 4 IS NOT FINISHED!!!
 // 4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 console.log(parseFloat('9.81')); // '9.8' is not equal to 10.
@@ -134,4 +135,21 @@ console.log(numTwoFloatInt); //I've couldnt make '9.8' equal to 10
 
 
 //5. Check if 'on' is found in both python and jargon
+const stringOne = 'python and jargon';
+console.log(stringOne.endsWith('on'));
 
+//6. I hope this course is not full of jargon. Check if jargon is in the sentence.
+const sentenceTwo = 'I hope this course is not full of jargon';
+console.log(sentenceTwo.endsWith('jargon'));
+
+//7. Generate a random number between 0 and 100 inclusively.
+console.log(Math.random() * 101);
+
+
+//EXERCISE 8 IS NOT FINISHED!!!
+//8. Generate a random number between 50 and 100 inclusively.
+console.log(Math.random() * 101); //Find how to use max and min.
+
+
+//9. Generate a random number between 0 and 255 inclusively.
+console.log(Math.random () * 256);
