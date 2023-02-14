@@ -167,8 +167,9 @@ console.log(Math.random () * 256);
 // 12. Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
 
 
-/* -LEVEL 3 EXERCISES - ARE NOT FINISHED!!!
+/* -LEVEL 3 EXERCISES - 1, 2, 3 AND 4 ARE NOT FINISHED!!!
 
+EXERCISE 1 IS NOT FINISHED!!!
  1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence. */
 let sentenceThree = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
 console.log(sentenceThree.match('love'));
@@ -177,11 +178,10 @@ console.log(sentenceThree.match('love'));
 console.log(sentenceOne.match('because'));
 
 //3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+// I may be wrong but it says 'this text' and 'const sentence' is = 'type of variable + variable name'. So im just taking in count the text, i if don't the console will return an error because const variables cannot be modified.
 
 //4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
-let sentenceFive = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+let sentenceFive = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.';
 console.log(sentenceFive.split(' ')); //Split string into an array for making it possible to select numbers in an easy way.
-console.log(sentenceFive[2, 8, 12]);
-
 
 //DAY 2 FINISHED: ANYWAYS THERE ARE SOME EXERCISES THAT WERENT FINISHED.
