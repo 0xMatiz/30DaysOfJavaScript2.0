@@ -153,3 +153,35 @@ console.log(Math.random() * 101); //Find how to use max and min.
 
 //9. Generate a random number between 0 and 255 inclusively.
 console.log(Math.random () * 256);
+
+
+// EXERCISE 10 NOT FINISHED!
+//10. Access the 'JavaScript' string characters using a random number.
+
+
+//EXCERCISE 11 NOT FINISHED!
+//11. Use console.log() and escape characters to print the following pattern.
+
+
+// EXERCISE 12 NOT FINISHED!
+// 12. Use substr to slice out the phrase because because because from the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+
+/* -LEVEL 3 EXERCISES - ARE NOT FINISHED!!!
+
+ 1. 'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence. */
+let sentenceThree = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+console.log(sentenceThree.match('love'));
+
+//2. Use match() to count the number of all because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log(sentenceOne.match('because'));
+
+//3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
+
+//4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+let sentenceFive = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+console.log(sentenceFive.split(' ')); //Split string into an array for making it possible to select numbers in an easy way.
+console.log(sentenceFive[2, 8, 12]);
+
+
+//DAY 2 FINISHED: ANYWAYS THERE ARE SOME EXERCISES THAT WERENT FINISHED.
