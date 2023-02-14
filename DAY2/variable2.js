@@ -41,21 +41,51 @@ console.log(challenge.lastIndexOf('a'));
 of the word because in the following sentence:
 'You cannot end a sentence with because because because is a 
 conjunction' */
-let sentence1 = 'You cannot end a sentence with because because because is a conjunction';
-console.log(sentence1.indexOf('because'));
+let sentenceOne = 'You cannot end a sentence with because because because is a conjunction';
+console.log(sentenceOne.indexOf('because'));
 /* 18. Use lastIndexOf to find the position of the last 
 occurrence of the word because in the following sentence:
 'You cannot end a sentence with because because because is a 
 conjunction' */
-console.log(sentence1.lastIndexOf('because'));
+console.log(sentenceOne.lastIndexOf('because'));
 /* 19. Use search to find the position of the first occurrence 
 of the word because in the following sentence:
 'You cannot end a sentence with because because because is a 
 conjunction' */
-console.log(sentence1.search('because'));
+console.log(sentenceOne.search('because'));
 /* 20. Use trim() to remove any trailing whitespace at the 
 beginning and the end of a string.E.g ' 30 Days Of JavaScript '. */
 console.log(' 30 Days Of JavaScript '.trim());
 /* 21. Use startsWith() method with the string 30 Days Of 
 JavaScript and make the result true */
 console.log(challenge.startsWith('30'));
+/* 22. Use endsWith() method with the string 30 Days Of 
+JavaScript and make the result true */
+console.log(challenge.endsWith('JavaScript'));
+//23. Use match() method to find all the a’s in 30 Days Of JavaScript
+console.log(challenge.match('a'));
+//24. Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+console.log('30 Days of '.concat('JavaScript'));
+//25. Use repeat() method to print 30 Days Of JavaScript 2 times
+console.log(challenge.repeat(2));
+
+// -LEVEL 2 EXERCISES -
+/* 1. Using console.log() print out the following statement: 
+The quote 'There is no exercise better for the heart than 
+reaching down and lifting people up.' by John Holmes teaches 
+us to help one another. */
+//Im making a 'let variable' so we dont have to write two times the long statement.
+let statementTwo = 'The quote \'There is no exercise better for the heart than reaching down and lifting people up.\' by John Holmes teaches us to help one another.'
+console.log(statementTwo);
+/* 2. Using console.log() print out the following quote by 
+Mother Teresa:
+"Love is not patronizing and charity isn't about pity, it is 
+about love. Charity and love are the same -- with charity you 
+give love, so don't just give money but reach out your hand 
+instead." */
+const symbolOne = '--' //Make '--' able to be printed on the string
+// Im making a 'let variable' so " "
+let statementThree = `Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same ${symbolOne} with charity you give love, so don\'t just give money but reach out your hand instead.`
+console.log(statementThree);
+// 3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+console.log(typeof('10'));
