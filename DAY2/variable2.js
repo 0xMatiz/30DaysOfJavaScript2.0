@@ -87,5 +87,14 @@ const symbolOne = '--' //Make '--' able to be printed on the string
 // Im making a 'let variable' so " "
 let statementThree = `Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same ${symbolOne} with charity you give love, so don\'t just give money but reach out your hand instead.`
 console.log(statementThree);
-// 3. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
-console.log(typeof('10'));
+// 3. Check if typeof'10' is exactly equal to 10. If not make it exactly equal.
+console.log(typeof('10')); // '10' is not equal to 10, we're going to do some casting
+let num = '10';
+let numFloat = parseFloat(num);
+console.log(numFloat); // Now '10' is equal to 10
+// 4. Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
+console.log(parseFloat('9.81')); // '9.8' is not equal to 10.
+let numTwo = '9.81';
+let numTwoFloat = parseFloat(numTwo);
+let numTwoFloatInt = parseInt(numTwoFloat);
+console.log(numTwoFloatInt);
